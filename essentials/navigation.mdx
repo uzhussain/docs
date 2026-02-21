@@ -1,87 +1,48 @@
 ---
-title: 'Navigation'
-description: 'The navigation field in docs.json defines the pages that go in the navigation menu'
-icon: 'map'
+title: "How it works"
+description: "Input -> Engine -> Export pipeline for Timekeepur Labs"
+icon: "map"
 ---
 
-The navigation menu is the list of links on every website.
+Timekeepur Labs runs your strategy through an agent swarm and produces artifacts you can execute on immediately.
 
-You will likely update `docs.json` every time you add a new page. Pages do not show up automatically.
+## 01. Input
 
-## Navigation syntax
+Provide a single source of truth to start a diagnostic:
 
-Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
+- Resume upload (PDF, DOC, DOCX)
+- URL input (LinkedIn, portfolio, or website)
+- Natural language prompt inside the War Room
 
-<CodeGroup>
+## 02. Engine
 
-```json Regular Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": ["quickstart"]
-        }
-      ]
-    }
-  ]
-}
-```
+Your input is stress-tested by a swarm of generative agents that:
 
-```json Nested Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Nested Reference Pages",
-              "pages": ["nested-reference-page"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
+- Observe signals and research from public sources
+- Reflect on risks, positioning, and strategy
+- Assemble a structured blueprint from the findings
 
-</CodeGroup>
+## 03. Export
 
-## Folders
+Once the blueprint is ready, you can ship exports and start execution:
 
-Simply put your MDX files in folders and update the paths in `docs.json`.
+- **Blueprint**: strategy roadmap with recommendations and action steps
+- **Presentation (PPTX)**: investor-ready deck export
+- **Vision trailer**: cinematic preview of your product vision
+- **Cursor deeplink**: open the shipment in Cursor for production work
 
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
+## Where it shows up
 
-<Warning>
+- **Dashboard**: store and revisit blueprints
+- **Factory**: create shipments and exports
 
-You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
+## Related guides
 
-</Warning>
-
-```json Navigation With Folder
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Group Name",
-          "pages": ["your-folder/your-page"]
-        }
-      ]
-    }
-  ]
-}
-```
-
-## Hidden pages
-
-MDX files not included in `docs.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+<CardGroup cols={2}>
+  <Card title="Quickstart" icon="rocket" href="/quickstart">
+    Generate your first diagnostic and blueprint.
+  </Card>
+  <Card title="Pricing & credits" icon="wallet" href="/development">
+    Understand plan limits, credits, and export costs.
+  </Card>
+</CardGroup>

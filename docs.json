@@ -62,7 +62,7 @@
       }
     ]
   },
-  "logo": "/images/Group2014.svg",
+  "logo": "/images/TL_icon.png",
   "navbar": {
     "links": [
       {
@@ -94,5 +94,5 @@
       "linkedin": "https://www.linkedin.com/in/uzairhussain/"
     }
   },
-  "favicon": "/images/Group2014.svg"
+  "favicon": "/images/TL_icon.png"
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
+  "theme": "mint",
   "name": "Timekeepur Labs",
   "colors": {
     "primary": "#A45F00",

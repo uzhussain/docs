@@ -41,7 +41,8 @@
           {
             "group": "Pricing",
             "pages": [
-              "development"
+              "development",
+              "pricing/credit-costs"
             ]
           }
         ]

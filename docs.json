@@ -21,6 +21,20 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Website",
+          "icon": "globe",
+          "href": "https://labs.timekeepur.com"
+        },
+        {
+          "anchor": "X",
+          "icon": "x-twitter",
+          "href": "https://x.com/timekeepurlabs"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Docs",
@@ -47,26 +61,9 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://www.timekeepur.com",
-          "icon": "globe"
-        },
-        {
-          "anchor": "X",
-          "href": "https://x.com/timekeepur",
-          "icon": "x-twitter"
-        }
-      ]
-    }
+    ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/Group2014.svg",
   "navbar": {
     "links": [
       {

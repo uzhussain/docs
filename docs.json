@@ -19,7 +19,6 @@
       "weight": 400
     }
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "global": {
       "anchors": [
@@ -94,5 +93,6 @@
       "x": "https://x.com/timekeepurlabs",
       "linkedin": "https://www.linkedin.com/in/uzairhussain/"
     }
-  }
+  },
+  "favicon": "/images/Group2014.svg"
 }

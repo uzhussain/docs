@@ -8,6 +8,8 @@
     "dark": "#7E4600"
   },
   "fonts": {
+    "family": "Geist",
+    "weight": 400,
     "heading": {
       "family": "Geist",
       "weight": 600
